@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style/About.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> ROMA </title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">
+        <img src="img/logo_transparent.png" alt="logo" width="170" height="100">
+      </a>
+    </div>
+    <ul class="nav-links">
+        <li class="dropdown">
+          <a href="index.html">Home &#9662;</a>
+          <div class="dropdown-content">
+            <a href="About.html"><i class="fas fa-contact-card"></i>About Us</a>
+            <a href="contact.html"><i class="fas fa-contact-book"></i>Contact Us</a>
+            <a href="Sign Up.html"><i class="fas fa-sign-in"></i>Sign Up</a>
+          </div>
+      </li>
+      <li class="dropdown">
+        <a href="#">Products &#9662;</a>
+        <div class="dropdown-content">
+          <a href="Womenpro.html"><i class="fas fa-person-dress-burst"></i>Women</a>
+          <a href="Menpro.html"><i class="fas fa-tshirt"></i>Men</a>
+          <a href="Kidspro.html"><i class="fas fa-child-dress"></i>Kids</a>
+        </div>
+      </li>
+    </ul>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+
+<section class="about-us">
+    <h2>About Us</h2>
+    <div class="about-us-content">
+      <div class="about-us-section">
+        <h3>Our Story</h3>
+        <p>ROMA is one of the largest international fashion companies. It belongs to Inditex, one of the world’s largest distribution groups.
+
+          The customer is at the heart of our unique business model, which includes design, production, distribution and sales through our extensive retail network.</p>
+      </div>
+      <div class="about-us-section">
+        <h3>Our Mission and Values</h3>
+        <p>To fully appreciate how ROMA has achieved the level of success that the brand has today, there needs to be a thorough understanding of Zara's mission and vision statements, as well as its core values, since these elements are the foundations of everything that the company does and stands for. Each part can be concluded in a word or one sentence. To better visualize these statements, it would be helpful to view them in a mind map</p>
+      </div>
+      <div class="about-us-section">
+        <h3>Our Team</h3>
+        <div class="team-members">
+          <div class="team-member" data-member="john-doe">
+            <img src="img/6.jfif" alt="John Doe">
+            <h4>John Doe</h4>
+            <p>Founder & CEO</p>
+          </div>
+          <div class="team-member" data-member="jane-doe">
+            <img src="img/7.jfif" alt="Jane Doe">
+            <h4>Jane Doe</h4>
+            <p>Marketing Director</p>
+          </div>
+        </div>
+        <div class="team-member-popup" data-member="john-doe">
+          <div class="popup-content">
+            <button class="close-button">&times;</button>
+            <img src="img/6.jfif" alt="John Doe">
+            <h4>John Doe</h4>
+            <p>Founder & CEO</p>
+            <p>Insert more information about John Doe here.</p>
+          </div>
+        </div>
+        <div class="team-member-popup" data-member="jane-doe">
+          <div class="popup-content">
+            <button class="close-button">&times;</button>
+            <img src="img/7.jfif" alt="Jane Doe">
+            <h4>Jane Doe</h4>
+            <p>Marketing Director</p>
+            <p>Insert more information about Jane Doe here.</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-us-section">
+        <h3>Our Achievements</h3>
+        <p>ROMA  is one of the world’s most successful fashion retail brands – if not the most successful one. With its dramatic introduction of the concept of “fast fashion” retail since it was founded in 1975 in Spain, ROMA aspires to create responsible passion for fashion amongst a broad spectrum of consumers, spread across different cultures and age groups. There are many factors that have contributed to the success of ROMA but one of its key strengths, which has played a strong role in it becoming a global fashion powerhouse as it is today, is its ability to put customers first. ROMA is obsessed with its customers, and they have defined the company and the brand’s culture right from the very beginning.
+
+          The ROMA brand offers men and women’s clothing, children’s clothing (ROMA Kids), shoes and accessories. The sub-brand ROMA TRF offers trendier and sometimes edgier items to younger women and teenagers.</p>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <section class="customer-opinions">
+    <h2>Customer Opinions</h2>
+    <form class="opinion-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="opinion">Opinion:</label>
+      <textarea id="opinion" name="opinion" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="opinions-container">
+      <div class="opinion-card">
+        <h4>John Doe</h4>
+        <p>Insert customer opinion here.</p>
+      </div>
+      <div class="opinion-card">
+        <h4>Jane Doe</h4>
+        <p>Insert customer opinion here.</p>
+      </div>
+      <div class="opinion-card">
+        <h4>Jim Smith</h4>
+        <p>Insert customer opinion here.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-3 col-sm-6">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="index.html">Our Services</a></li>
+            <li><a href="https://static.zara.net/static//pdfs/EG/privacy-policy/privacy-policy-en_EG-20210706.pdf" target="_blank" id="" class=" _mkt-open-in-popup">Privacy Policy</a></li>
+            <li><a href="https://static.zara.net/static//pdfs/EG/privacy-policy/privacy-policy-en_EG-20210706.pdf" target="_blank" id="" class=" _mkt-open-in-popup">Terms and Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col col-md-3 col-sm-6">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="index.html">FAQ</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="About.html">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col col-md-3 col-sm-6">
+          <h4>Newsletter</h4>
+          <p>Subscribe to our newsletter to get the latest news and updates.</p>
+          <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+          <form>
+            <div class="footer-col col-md-3 col-sm-6">              <div class="footer-icons">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Designed by <a href="#">Dahab Rostom</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script/About.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js" integrity="sha512-apZ8JDL5kA1iqvafDdTymV4FWUlJd8022mh46oEMMd/LokNx9uVAzhHk5gRll+JBE6h0alB2Upd3m+ZDAofbaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+  </html>
