@@ -1,20 +1,4 @@
-/**
- * jQuery Form Validator Module: Security
- * ------------------------------------------
- * Created by Victor Jonsson <http://victorjonsson.se>
- *
- * This module adds validators typically used in registration forms.
- * This module adds the following validators:
- *  - spamcheck
- *  - confirmation
- *  - strength
- *  - backend
- *  - credit card
- *  - cvv
- *
- * @website http://formvalidator.net/#security-validators
- * @license MIT
- */
+
 (function ($, window) {
 
   'use strict';
@@ -179,12 +163,7 @@
     errorMessage: '',
     errorMessageKey: 'badStrength',
 
-    /**
-     * Code more or less borrowed from jQuery plugin "Password Strength Meter"
-     * written by Darren Mason (djmason9@gmail.com), myPocket technologies (www.mypocket-technologies.com)
-     * @param {String} password
-     * @return {Number}
-     */
+  
     calculatePasswordStrength: function (password) {
 
       if (password.length < 4) {
