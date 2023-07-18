@@ -25,6 +25,7 @@
 }
 
 .nav-links {
+  font-family: sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -151,7 +152,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fff;
+  background-color: #ffffff81;
   min-width: 200px;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
